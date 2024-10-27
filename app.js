@@ -17,5 +17,8 @@ function calculateBMI() {
     else if(bmiForm >= 25.0) {
         result.textContent = "Your BMI is " + bmiForm.toFixed(2) + ` and your nutritional status is overweight.`;
     }
+    else {
+        result.textContent = "Both inputs are required."
+    }
 }
 

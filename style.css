@@ -15,7 +15,7 @@ padding: 0}
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     height: 100%;
-    
+    width: 50%;
 }
 
 
@@ -35,7 +35,7 @@ input[type=number] {
   }
 
   button {
-    background-color: #676767;
+    background-color: #2a1de2;
     color: white;
     padding: 10px 10px;
     margin: 15px 0 0 0;
@@ -53,6 +53,8 @@ input[type=number] {
     
   }
 
-label {font-family: sans-serif;
+label {
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
